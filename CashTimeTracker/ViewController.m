@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *winCash;
+@property (weak, nonatomic) IBOutlet UILabel *wintime;
+@property (weak, nonatomic) IBOutlet UILabel *loseCash;
+@property (weak, nonatomic) IBOutlet UILabel *loseTime;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *state;
 
 @end
 
